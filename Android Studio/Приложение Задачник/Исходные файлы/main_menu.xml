@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.editor.MainActivity">
+    <item
+        android:id="@+id/action_open"
+        android:icon="@android:drawable/ic_menu_day"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/clear"
+        android:onClick="SpisokClear"/>
+    <item
+        android:id="@+id/action_save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="100"
+        android:title="@string/sort_date"
+        app:showAsAction="never"
+        android:onClick="sortData"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/prioriti"
+        app:showAsAction="never"
+        android:onClick="FillPriority"/>
+    <item
+        android:id="@+id/action_clear"
+        android:orderInCategory="100"
+        android:title="@string/exit"
+        android:onClick="Zakrit"
+        app:showAsAction="never" />
+</menu>

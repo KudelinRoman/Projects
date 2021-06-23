@@ -1,0 +1,238 @@
+body{
+        background-color: #E5E5E5;
+    height: auto;
+}
+
+.body{
+    background: silver;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 2%;
+    width: 50%;
+}
+.name-date-time{
+    display: flex;
+  flex-direction: row;
+     margin-left: 2%;
+    margin-right: 2%;
+}
+.news1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: auto;
+    width: auto;
+    margin-bottom: 5px;
+    
+}
+.avatar{
+    align-items: center;
+}
+.user{
+    position: sticky;
+    top: 2em;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 2%;
+    align-items: center;
+}
+img{
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.name-date-time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5ppx;
+    margin-left: 5ppx;
+}
+.publication{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.autor{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.commentary{
+    height: auto;
+    width: 700px;
+}
+.name_com {
+    height: auto;
+    width: 700px;
+    background-color: #6AA6DF;
+    font-size: 18px;
+    align-items: center;
+}
+.comm_name_p{
+    margin: auto auto auto 40px;
+}
+.comments{
+    height: auto;
+    width: 700px;
+    background-color: white;
+    border: 2px solid #6AA6DF;   
+}
+
+.input_comment{
+     width: 350px;
+    height: 95px;
+    word-wrap: normal;
+     border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: auto;
+    font-size: 16px;
+}
+.sett-prof {
+    background-color: white;
+     border-radius: 10px;
+    height: 30px;
+    width: 190px;
+    margin: 2%;
+}
+.open-prof {
+    background-color: white;
+     border-radius: 10px;
+    height: 30px;
+    width: 190px;
+    margin: 2%;
+}
+.btn btn-success{
+    background-color: white;
+     border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    margin: 2%;
+}
+
+.description{
+    width: 250px;
+    height: 95px;
+    word-wrap: normal;
+     border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: auto;
+    font-size: 16px;
+}
+.dialog{
+    height: auto;
+    width: 100%;
+    background-color: #6AA6DF;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+.dial{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.cls{
+    height: auto;
+    width: 600px;
+    background-color: silver;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 7%;
+    margin: 3%;
+}
+
+.messages{
+    min-height: 90vh;
+    width: 700px;
+    background-color: white;
+    align-items: center;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.otpr_text{
+    background-color: white;
+     border-radius: 10px;
+    height: 30px;
+    width: 90px;
+}
+.pole_text{
+     height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 7%;
+}
+.messbt{
+    display: flex;
+    flex-direction: column;
+}
+.mess{
+    margin-left: 15px;
+}
+.theme-post{
+    width: 70%;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.text-post{
+    width: 90%;
+    height: 95px;
+    word-wrap: normal;
+     border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: auto;
+    font-size: 16px;
+}
+
+
+
+
+
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+    align-items: center;
+}
+.b-popup-content{
+    margin:40px auto 0px auto;
+    width:45%;
+    height: 50%;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pop-close{
+    background-color: white;
+     border-radius: 10px;
+    height: 30px;
+    width: 90px;
+}
+.bt_del{
+    float: right;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
